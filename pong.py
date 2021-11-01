@@ -2,8 +2,8 @@ import turtle
 import winsound
 
 window = turtle.Screen()
-window.title("Pong")
-window.bgcolor("black")
+window.title("Ping-Pong")
+window.bgcolor("blue")
 window.setup(width=800, height=600)
 window.tracer(0)
 
@@ -33,7 +33,7 @@ paddle_b.goto(350, 0)
 # Ball
 ball = turtle.Turtle()
 ball.speed(0)
-ball.shape("square")
+ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
